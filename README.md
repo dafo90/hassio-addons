@@ -42,7 +42,8 @@ The available configuration options are as follows (this is filled in with some 
       "user_agent": "Mozilla/5.0",
       "ddns_server": "ddns.example.com",
       "ddns_path": "",
-      "append_myip": false
+      "append_myip": false,
+      "ddns_response": "yourddnsresponse"
     }
   ]
 }
@@ -52,6 +53,7 @@ You should not fill in all of these, only use what is necessary. A typical examp
 
 ```
 {
+  "providers": [
     {
       "provider": "duckdns",
       "username": "your-token",
